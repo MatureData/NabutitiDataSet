@@ -13,6 +13,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import numpy as np 
 
+
 # Load dataset
 @st.cache_data
 def load_data():
