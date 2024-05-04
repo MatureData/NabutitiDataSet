@@ -54,7 +54,7 @@ def main():
 
     # Preprocess data
     X, y = preprocess_data(data)
-
+ 
     # Train model
     model, X_test, y_test = train_model(X, y)
 
