@@ -76,7 +76,7 @@ def main():
     prediction = model.predict(input_data)
 
     st.subheader('Prediction')
-    st.write('Predicted House Price:', prediction[0])
+    st.write('Predicted House Price:', prediction[0], 'Ug Shillings')
 
 if __name__ == '__main__':
     main()
